@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Homepage </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <!-- header -->
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="bi bi-person-circle"></i> Ngo Thanh Huyen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Featured</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">View Post</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+  <main class="container mt-5">
+    <div class="main_about row">
+      <h4>Ngo Thanh Huyen</h4>
+      <p class="my_major lead">Student</p>
+      <div class="col-md-6">
+        <img src="images/img1.jpeg" alt="" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h4>About</h4>
+        <p class="my_about lead ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima vel ipsam mollitia!
+          Harum magnam eaque
+          incidunt, quos quasi molestiae aperiam minus consectetur cupiditate. Eveniet tempora odit, placeat asperiores
+          saepe ipsum.</p>
+      </div>
+    </div>
+    <div class="main_featured row">
+      <h4 class="mt-5 mb-3">Featured Posts</h4>
+      <div class="col-md">
+        <figure class="figure">
+          <img src="images/img2.jpeg" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+        </figure>
+      </div>
+      <div class="col-md">
+        <figure class="figure">
+          <img src="images/img3.jpeg" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+        </figure>
+      </div>
+      <div class="col-md">
+        <figure class="figure">
+          <img src="images/img5.jpeg" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+        </figure>
+      </div>
+      <div class="col-md">
+        <figure class="figure">
+          <img src="images/img6.jpeg" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </main>
+  <!-- Slider-->
+  <section class="slider container-fluid mt-3">
+    <!-- Carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- Cấu trúc mình muốn trượt-->
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Title 1</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nobis laboriosam iusto aperiam
+                dolor, facere illum doloribus! Possimus voluptatibus eius autem ea molestias perferendis cupiditate
+                inventore ipsa architecto, nemo iusto?</p>
+            </div>
+            <div class="col-md-6">
+              <h4>Title 2</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nobis laboriosam iusto aperiam
+                dolor, facere illum doloribus! Possimus voluptatibus eius autem ea molestias perferendis cupiditate
+                inventore ipsa architecto, nemo iusto?</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Title 3</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nobis laboriosam iusto aperiam
+                dolor, facere illum doloribus! Possimus voluptatibus eius autem ea molestias perferendis cupiditate
+                inventore ipsa architecto, nemo iusto?</p>
+            </div>
+            <div class="col-md-6">
+              <h4>Title 4</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident nobis laboriosam iusto aperiam
+                dolor, facere illum doloribus! Possimus voluptatibus eius autem ea molestias perferendis cupiditate
+                inventore ipsa architecto, nemo iusto?</p>
+            </div>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <div class="container">
+    <h1>Contact (Yourname)</h1>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"></h3>
+      </div>
+      <div class="panel-body">
+        <div class="alert alert-warning">
+        </div>
+        <form>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="control-label">First Name</label>
+                <input type="text" class="form-control" placeholder="Enter first name">
+              </div>
+            </div><!-- Col -->
+  
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="control-label">Last Name</label>
+                <input type="text" class="form-control" placeholder="Enter last name">
+              </div>
+            </div><!-- Col -->
+          </div><!-- Row -->
+  
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="control-label">City</label>
+                <input type="text" class="form-control" placeholder="Enter city">
+              </div>
+            </div><!-- Col -->
+  
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="control-label">State</label>
+                <input type="text" class="form-control" placeholder="Enter state">
+              </div>
+            </div><!-- Col -->
+  
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="control-label">Zip</label>
+                <input type="text" class="form-control" placeholder="Enter zip code">
+              </div>
+            </div><!-- Col -->
+          </div><!-- Row -->
+          
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="control-label">Username</label>
+                <input type="email" class="form-control" placeholder="Enter email">
+              </div>
+            </div><!-- Col -->
+  
+            
+            </div><!-- Col -->
+          </div><!-- Row -->
+        </form>
+      </div>
+      <div class="panel-footer mt-3">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="pull-right">
+        
+              <button type="button" class="btn btn-primary submit">Submit Form</button>
+            </div>
+          </div>
+        </div>
+      </div><!-- Panel Footer -->
+    </div>
+<!-- Footer -->
+<footer class="container mt-5">
+  <div class="row">
+ <div class="col-md">
+   <h4> <i class="bi bi-twitter"></i> Footer Item </h4>
+   <ul class=" list-unstyled">
+     <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+     <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+     <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+     <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+   </ul>
+ </div>
+ <div class="col-md">
+  <h4> <i class="bi bi-twitter"></i> Footer Item </h4>
+  <ul class=" list-unstyled">
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+  </ul>
+ </div>
+ <div class="col-md">
+  <h4> <i class="bi bi-twitter"></i> Footer Item </h4>
+  <ul class=" list-unstyled">
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+  </ul>
+ </div>
+ <div class="col-md">
+  <h4> <i class="bi bi-twitter"></i> Footer Item </h4>
+  <ul class=" list-unstyled">
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+    <li><a href="#" class="text-decoration-none link-primary">Item</a></li>
+  </ul>
+ </div>
+  </div>
+</footer>
+<div class="row mt-3 mb-3">
+  <hr>
+  <div class="col-md text-center text-muted">
+    &copy; Ngo Thanh Huyen 12/2021
+  </div>
+</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

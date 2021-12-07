@@ -1,0 +1,10 @@
+.col-md-12{
+    padding: 0;
+}
+.my_about{
+    text-align: justify;
+}
+body {
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+  }
